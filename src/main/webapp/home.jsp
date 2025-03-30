@@ -22,7 +22,7 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
-        background: url('http://localhost:8080/Demo-JSP-SERVLET/img/tonikroos.jpg') no-repeat center center fixed;
+        background: url('<%= request.getContextPath() %>/img/tonikroos.jpg') no-repeat center center fixed;
         background-size: cover;
     }
 

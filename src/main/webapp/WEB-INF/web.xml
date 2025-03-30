@@ -111,7 +111,7 @@
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>default</servlet-name>
-        <url-pattern>/resources/*</url-pattern>
+        <url-pattern>/img/*</url-pattern>
     </servlet-mapping>
 
 
